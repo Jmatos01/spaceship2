@@ -11,7 +11,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     compress: true,
-    port: 4500
+    port: 8500
   },
   plugins: [
     new UglifyJsPlugin()
